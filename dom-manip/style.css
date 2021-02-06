@@ -1,0 +1,10 @@
+.images {
+    height: 100px;
+}
+#item {
+    border: 2px solid gold;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
