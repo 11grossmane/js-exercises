@@ -21,9 +21,9 @@ let removeBars = (l, w, removeL, removeW) => {
             curConsec = 1
         }
     }
-    return maxConsecL * maxConsecW
+    return maxConsecL + 1 * maxConsecW + 1
 }
 
-let res = removeBars(4, 4, [2, 3], [2])
+let res = removeBars(12, 12, [4, 2, 6, 5], [2, 3])
 
 console.log(res)
