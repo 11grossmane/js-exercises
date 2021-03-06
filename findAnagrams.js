@@ -36,3 +36,5 @@ var findAnagrams = function (s, p) {
   }
   return res
 }
+
+console.log(findAnagrams("asdkafsnvvnsdlfv", "snv"))

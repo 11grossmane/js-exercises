@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/11grossmane/js-exercises/issues"
   },
-  "homepage": "https://github.com/11grossmane/js-exercises#readme"
+  "homepage": "https://github.com/11grossmane/js-exercises#readme",
+  "dependencies": {
+    "run-parallel": "^1.2.0"
+  }
 }
