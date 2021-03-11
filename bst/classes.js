@@ -50,9 +50,10 @@ class BST {
         else if (!node.left && node.right) return node.right
         else if (node.left && !node.right) return node.left
         else {
+          //we have two children so we tack our left subtree onto our successor (the leftmost node of our right subtree), then we point our parent at the left subtree, thereby breaking the link to the node we are trying to delete
           let successor = this.findSuccessor(node)
 
-          //our node if less than our successor, so taking our node.left onto our successor always works
+          //our node is less than our successor, so tacking our node.left onto our successor always works
           successor.left = node.left
 
           //our successor is already inside node.right (it's the leftmost element) and it now contains everything that was in node.left.  So, it has everything we need
