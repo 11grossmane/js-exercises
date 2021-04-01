@@ -17,7 +17,7 @@ BSTIterator.prototype.next = function () {
   if (!top) return null
   if (top.right) {
     //return before finish rebuilding
-    Promise.resolve(this.buildStack(top.right))
+    this.buildStack(top.right)
   }
   console.log("hi")
 
